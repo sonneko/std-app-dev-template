@@ -112,7 +112,8 @@ jobs:
       # - run: npm run format:check
 
       - name: Placeholder lint step
-        run: echo "Lint step: プロジェクト固有の lint コマンドをここに設定する"
+        run: |
+          echo "Lint step: プロジェクト固有の lint コマンドをここに設定する"
 
   test:
     name: Test
@@ -137,7 +138,8 @@ jobs:
       # - run: npm test
 
       - name: Placeholder test step
-        run: echo "Test step: プロジェクト固有のテストコマンドをここに設定する"
+        run: |
+          echo "Test step: プロジェクト固有のテストコマンドをここに設定する"
 
   build:
     name: Build Check
@@ -161,4 +163,5 @@ jobs:
       # - run: npm run build
 
       - name: Placeholder build step
-        run: echo "Build step: プロジェクト固有のビルドコマンドをここに設定する"
+        run: |
+          echo "Build step: プロジェクト固有のビルドコマンドをここに設定する"
